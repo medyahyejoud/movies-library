@@ -1,0 +1,23 @@
+{
+  "name": "movies-library",
+  "version": "1.0.0",
+  "description": "Movies Library App using Node, Express, EJS  and, MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Mohamed Yahye",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
